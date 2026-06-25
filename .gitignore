@@ -1,0 +1,12 @@
+backend/momenv/
+momenv/
+venv/
+.venv/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+VibeCoding/
+claudeCode-test/
+.vscode/
