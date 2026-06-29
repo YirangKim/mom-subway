@@ -1,0 +1,182 @@
+.page {
+  min-height: 100vh;
+  background: #fff7f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  width: 100%;
+  max-width: 430px;
+  background: white;
+  border-radius: 28px;
+  padding: 28px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.badge {
+  display: inline-block;
+  background: #ffe2d2;
+  color: #ff7a45;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 26px;
+  line-height: 1.35;
+  margin: 20px 0;
+  color: #222;
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  border: 1px solid #eee;
+  border-radius: 18px;
+  padding: 16px;
+  font-size: 16px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  margin-top: 14px;
+  border: none;
+  border-radius: 16px;
+  padding: 16px;
+  background: #ff8a5b;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+}
+
+.result,
+.sub-card {
+  margin-top: 20px;
+  padding: 18px;
+  background: #f8f8f8;
+  border-radius: 18px;
+}
+
+.result p,
+.sub-card p {
+  line-height: 1.6;
+}
+
+.debug {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 12px;
+  font-size: 13px;
+  color: #777;
+}
+
+.error {
+  margin-top: 12px;
+  color: #e5484d;
+}
+
+.meta {
+  font-size: 13px;
+  color: #777;
+}
+
+.action {
+  font-weight: 700;
+  color: #ff7a45;
+}
+
+.page {
+  min-height: 100vh;
+  background: #fff7f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  width: 100%;
+  max-width: 430px;
+  background: white;
+  border-radius: 28px;
+  padding: 28px;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 18px;
+  padding: 16px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  border: none;
+  border-radius: 16px;
+  padding: 16px;
+  background: #ff8a5b;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.result,
+.sub-card {
+  margin-top: 20px;
+  padding: 18px;
+  background: #f8f8f8;
+  border-radius: 18px;
+}
+
+.error {
+  color: #e5484d;
+}
+
+.splash-page {
+  min-height: 100vh;
+  background: #fff7f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.splash-logo {
+  font-size: 34px;
+  font-weight: 800;
+  color: #ff7a45;
+  letter-spacing: -0.5px;
+}
+
+.splash-text {
+  margin-top: 12px;
+  font-size: 15px;
+  color: #777;
+}

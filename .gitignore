@@ -10,3 +10,4 @@ node_modules/
 VibeCoding/
 claudeCode-test/
 .vscode/
+ai/chroma_db/
